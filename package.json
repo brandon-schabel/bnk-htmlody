@@ -1,6 +1,6 @@
 {
     "name": "@bnk/htmlody",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "workspaces": [
         "packages/*"
     ],
@@ -10,5 +10,9 @@
         "test": "bun test",
         "prepublishOnly": "bun test",
         "publish:htmlody": "bun publish --access public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brandon-schabel/bnk-htmlody.git"
     }
 }
